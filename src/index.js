@@ -1,7 +1,6 @@
-import axios from './node_modules/axios/dist/axios.min.js'
+import axios from 'axios';
 import Notiflix from 'notiflix';
-import { fetchBreeds, fetchCatByBreed } from './cat-api';
-
+import { fetchBreeds, fetchCatByBreed } from '../cat-api';
 const breedSelect = document.querySelector('.breed-select');
 const loader = document.querySelector('.loader');
 const catInfo = document.querySelector('.cat-info');
