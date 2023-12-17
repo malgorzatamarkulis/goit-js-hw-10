@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from './node_modules/axios/dist/axios.min.js'
 import Notiflix from 'notiflix';
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 
